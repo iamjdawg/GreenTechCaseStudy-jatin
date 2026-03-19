@@ -1,0 +1,41 @@
+name,category,quantity,unit,cost_per_unit,expiry_days_from_now,notes
+Whole Milk,Dairy,12,liters,68.00,5,Organic whole milk
+Heavy Cream,Dairy,4,liters,180.00,3,For lattes and desserts
+Greek Yogurt,Dairy,8,tubs,120.00,10,Plain unsweetened
+Butter,Dairy,6,packs,55.00,21,Amul unsalted
+Romaine Lettuce,Produce,5,bunches,60.00,-1,Slightly wilted
+Cherry Tomatoes,Produce,3,packs,80.00,4,Vine-ripened
+Fresh Basil,Produce,4,bunches,30.00,2,From local farm
+Lemons,Produce,15,pieces,10.00,12,For drinks and garnish
+Avocados,Produce,10,pieces,120.00,3,Hass variety
+Spinach,Produce,3,bags,40.00,2,Baby spinach
+Chicken Breast,Meat,8,kg,350.00,4,Free-range
+Smoked Salmon,Meat,2,kg,1200.00,6,Norwegian
+Bacon,Meat,3,packs,450.00,8,Thick-cut
+Sourdough Bread,Bakery,6,loaves,180.00,2,Artisan baked
+Croissants,Bakery,12,pieces,80.00,1,Butter croissants
+Blueberry Muffins,Bakery,8,pieces,90.00,-2,Past best before
+Bagels,Bakery,10,pieces,60.00,3,Assorted
+Orange Juice,Beverages,6,liters,150.00,14,Fresh squeezed
+Kombucha,Beverages,10,bottles,200.00,30,Ginger flavor
+Oat Milk,Beverages,8,liters,180.00,20,Barista edition
+Sparkling Water,Beverages,24,bottles,65.00,90,San Pellegrino
+Arabica Coffee Beans,Coffee,5,bags,950.00,60,Single origin Ethiopia
+House Blend Coffee,Coffee,3,bags,750.00,45,Medium roast
+Decaf Coffee,Coffee,2,bags,800.00,50,Swiss water process
+Espresso Beans,Coffee,4,bags,1100.00,55,Dark roast Italian
+Ketchup,Condiments,3,bottles,120.00,120,Organic
+Honey,Condiments,4,jars,350.00,180,Raw local honey
+Maple Syrup,Condiments,2,bottles,650.00,150,Grade A amber
+Olive Oil,Condiments,3,liters,550.00,200,Extra virgin
+All-Purpose Flour,Dry Goods,10,bags,60.00,90,Unbleached
+Granulated Sugar,Dry Goods,8,bags,50.00,365,White sugar
+Rolled Oats,Dry Goods,5,bags,150.00,120,Gluten-free
+Dark Chocolate Chips,Dry Goods,4,bags,250.00,180,72% cacao
+Almond Milk,Beverages,6,liters,220.00,15,Unsweetened
+Vanilla Extract,Condiments,2,bottles,450.00,365,Pure Madagascar
+Cinnamon,Condiments,3,jars,180.00,365,Ceylon ground
+Frozen Berries Mix,Frozen,4,bags,350.00,180,Organic blend
+Frozen Croissant Dough,Frozen,2,packs,500.00,90,Ready to bake
+Ice Cream Vanilla,Frozen,3,tubs,400.00,120,Premium
+Matcha Powder,Coffee,2,tins,1400.00,180,Ceremonial grade
