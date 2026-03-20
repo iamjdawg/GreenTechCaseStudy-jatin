@@ -1,0 +1,757 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Dairy",
+            "icon": "🥛"
+        },
+        {
+            "id": 2,
+            "name": "Produce",
+            "icon": "🥬"
+        },
+        {
+            "id": 3,
+            "name": "Meat",
+            "icon": "🥩"
+        },
+        {
+            "id": 4,
+            "name": "Bakery",
+            "icon": "🥐"
+        },
+        {
+            "id": 5,
+            "name": "Beverages",
+            "icon": "🥤"
+        },
+        {
+            "id": 6,
+            "name": "Coffee",
+            "icon": "☕"
+        },
+        {
+            "id": 7,
+            "name": "Condiments",
+            "icon": "🫙"
+        },
+        {
+            "id": 8,
+            "name": "Dry Goods",
+            "icon": "🌾"
+        },
+        {
+            "id": 9,
+            "name": "Frozen",
+            "icon": "🧊"
+        },
+        {
+            "id": 10,
+            "name": "Other",
+            "icon": "📦"
+        }
+    ],
+    "inventory_items": [
+        {
+            "id": 1,
+            "name": "Whole Milk",
+            "category": "Dairy",
+            "quantity": 12,
+            "unit": "liters",
+            "cost_per_unit": 68.00,
+            "expiry_days_from_now": 5,
+            "status": "active",
+            "notes": "Organic whole milk"
+        },
+        {
+            "id": 2,
+            "name": "Heavy Cream",
+            "category": "Dairy",
+            "quantity": 4,
+            "unit": "liters",
+            "cost_per_unit": 180.00,
+            "expiry_days_from_now": 3,
+            "status": "low",
+            "notes": "For lattes and desserts"
+        },
+        {
+            "id": 3,
+            "name": "Greek Yogurt",
+            "category": "Dairy",
+            "quantity": 8,
+            "unit": "tubs",
+            "cost_per_unit": 120.00,
+            "expiry_days_from_now": 10,
+            "status": "active",
+            "notes": "Plain unsweetened"
+        },
+        {
+            "id": 4,
+            "name": "Butter",
+            "category": "Dairy",
+            "quantity": 6,
+            "unit": "packs",
+            "cost_per_unit": 55.00,
+            "expiry_days_from_now": 21,
+            "status": "active",
+            "notes": "Amul unsalted"
+        },
+        {
+            "id": 5,
+            "name": "Romaine Lettuce",
+            "category": "Produce",
+            "quantity": 5,
+            "unit": "bunches",
+            "cost_per_unit": 60.00,
+            "expiry_days_from_now": -1,
+            "status": "expired",
+            "notes": "Slightly wilted"
+        },
+        {
+            "id": 6,
+            "name": "Cherry Tomatoes",
+            "category": "Produce",
+            "quantity": 3,
+            "unit": "packs",
+            "cost_per_unit": 80.00,
+            "expiry_days_from_now": 4,
+            "status": "active",
+            "notes": "Vine-ripened"
+        },
+        {
+            "id": 7,
+            "name": "Fresh Basil",
+            "category": "Produce",
+            "quantity": 4,
+            "unit": "bunches",
+            "cost_per_unit": 30.00,
+            "expiry_days_from_now": 2,
+            "status": "low",
+            "notes": "From local farm"
+        },
+        {
+            "id": 8,
+            "name": "Lemons",
+            "category": "Produce",
+            "quantity": 15,
+            "unit": "pieces",
+            "cost_per_unit": 10.00,
+            "expiry_days_from_now": 12,
+            "status": "active",
+            "notes": "For drinks and garnish"
+        },
+        {
+            "id": 9,
+            "name": "Avocados",
+            "category": "Produce",
+            "quantity": 10,
+            "unit": "pieces",
+            "cost_per_unit": 120.00,
+            "expiry_days_from_now": 3,
+            "status": "low",
+            "notes": "Hass variety"
+        },
+        {
+            "id": 10,
+            "name": "Spinach",
+            "category": "Produce",
+            "quantity": 3,
+            "unit": "bags",
+            "cost_per_unit": 40.00,
+            "expiry_days_from_now": 2,
+            "status": "low",
+            "notes": "Baby spinach"
+        },
+        {
+            "id": 11,
+            "name": "Chicken Breast",
+            "category": "Meat",
+            "quantity": 8,
+            "unit": "kg",
+            "cost_per_unit": 350.00,
+            "expiry_days_from_now": 4,
+            "status": "active",
+            "notes": "Free-range"
+        },
+        {
+            "id": 12,
+            "name": "Smoked Salmon",
+            "category": "Meat",
+            "quantity": 2,
+            "unit": "kg",
+            "cost_per_unit": 1200.00,
+            "expiry_days_from_now": 6,
+            "status": "active",
+            "notes": "Norwegian"
+        },
+        {
+            "id": 13,
+            "name": "Bacon",
+            "category": "Meat",
+            "quantity": 3,
+            "unit": "packs",
+            "cost_per_unit": 450.00,
+            "expiry_days_from_now": 8,
+            "status": "active",
+            "notes": "Thick-cut"
+        },
+        {
+            "id": 14,
+            "name": "Sourdough Bread",
+            "category": "Bakery",
+            "quantity": 6,
+            "unit": "loaves",
+            "cost_per_unit": 180.00,
+            "expiry_days_from_now": 2,
+            "status": "low",
+            "notes": "Artisan baked"
+        },
+        {
+            "id": 15,
+            "name": "Croissants",
+            "category": "Bakery",
+            "quantity": 12,
+            "unit": "pieces",
+            "cost_per_unit": 80.00,
+            "expiry_days_from_now": 1,
+            "status": "low",
+            "notes": "Butter croissants"
+        },
+        {
+            "id": 16,
+            "name": "Blueberry Muffins",
+            "category": "Bakery",
+            "quantity": 8,
+            "unit": "pieces",
+            "cost_per_unit": 90.00,
+            "expiry_days_from_now": -2,
+            "status": "expired",
+            "notes": "Past best before"
+        },
+        {
+            "id": 17,
+            "name": "Bagels",
+            "category": "Bakery",
+            "quantity": 10,
+            "unit": "pieces",
+            "cost_per_unit": 60.00,
+            "expiry_days_from_now": 3,
+            "status": "low",
+            "notes": "Assorted"
+        },
+        {
+            "id": 18,
+            "name": "Orange Juice",
+            "category": "Beverages",
+            "quantity": 6,
+            "unit": "liters",
+            "cost_per_unit": 150.00,
+            "expiry_days_from_now": 14,
+            "status": "active",
+            "notes": "Fresh squeezed"
+        },
+        {
+            "id": 19,
+            "name": "Kombucha",
+            "category": "Beverages",
+            "quantity": 10,
+            "unit": "bottles",
+            "cost_per_unit": 200.00,
+            "expiry_days_from_now": 30,
+            "status": "active",
+            "notes": "Ginger flavor"
+        },
+        {
+            "id": 20,
+            "name": "Oat Milk",
+            "category": "Beverages",
+            "quantity": 8,
+            "unit": "liters",
+            "cost_per_unit": 180.00,
+            "expiry_days_from_now": 20,
+            "status": "active",
+            "notes": "Barista edition"
+        },
+        {
+            "id": 21,
+            "name": "Sparkling Water",
+            "category": "Beverages",
+            "quantity": 24,
+            "unit": "bottles",
+            "cost_per_unit": 65.00,
+            "expiry_days_from_now": 90,
+            "status": "active",
+            "notes": "San Pellegrino"
+        },
+        {
+            "id": 22,
+            "name": "Arabica Coffee Beans",
+            "category": "Coffee",
+            "quantity": 5,
+            "unit": "bags",
+            "cost_per_unit": 950.00,
+            "expiry_days_from_now": 60,
+            "status": "active",
+            "notes": "Single origin Ethiopia"
+        },
+        {
+            "id": 23,
+            "name": "House Blend Coffee",
+            "category": "Coffee",
+            "quantity": 3,
+            "unit": "bags",
+            "cost_per_unit": 750.00,
+            "expiry_days_from_now": 45,
+            "status": "active",
+            "notes": "Medium roast"
+        },
+        {
+            "id": 24,
+            "name": "Decaf Coffee",
+            "category": "Coffee",
+            "quantity": 2,
+            "unit": "bags",
+            "cost_per_unit": 800.00,
+            "expiry_days_from_now": 50,
+            "status": "active",
+            "notes": "Swiss water process"
+        },
+        {
+            "id": 25,
+            "name": "Espresso Beans",
+            "category": "Coffee",
+            "quantity": 4,
+            "unit": "bags",
+            "cost_per_unit": 1100.00,
+            "expiry_days_from_now": 55,
+            "status": "active",
+            "notes": "Dark roast Italian"
+        },
+        {
+            "id": 26,
+            "name": "Ketchup",
+            "category": "Condiments",
+            "quantity": 3,
+            "unit": "bottles",
+            "cost_per_unit": 120.00,
+            "expiry_days_from_now": 120,
+            "status": "active",
+            "notes": "Organic"
+        },
+        {
+            "id": 27,
+            "name": "Honey",
+            "category": "Condiments",
+            "quantity": 4,
+            "unit": "jars",
+            "cost_per_unit": 350.00,
+            "expiry_days_from_now": 180,
+            "status": "active",
+            "notes": "Raw local honey"
+        },
+        {
+            "id": 28,
+            "name": "Maple Syrup",
+            "category": "Condiments",
+            "quantity": 2,
+            "unit": "bottles",
+            "cost_per_unit": 650.00,
+            "expiry_days_from_now": 150,
+            "status": "active",
+            "notes": "Grade A amber"
+        },
+        {
+            "id": 29,
+            "name": "Olive Oil",
+            "category": "Condiments",
+            "quantity": 3,
+            "unit": "liters",
+            "cost_per_unit": 550.00,
+            "expiry_days_from_now": 200,
+            "status": "active",
+            "notes": "Extra virgin"
+        },
+        {
+            "id": 30,
+            "name": "All-Purpose Flour",
+            "category": "Dry Goods",
+            "quantity": 10,
+            "unit": "bags",
+            "cost_per_unit": 60.00,
+            "expiry_days_from_now": 90,
+            "status": "active",
+            "notes": "Unbleached"
+        },
+        {
+            "id": 31,
+            "name": "Granulated Sugar",
+            "category": "Dry Goods",
+            "quantity": 8,
+            "unit": "bags",
+            "cost_per_unit": 50.00,
+            "expiry_days_from_now": 365,
+            "status": "active",
+            "notes": "White sugar"
+        },
+        {
+            "id": 32,
+            "name": "Rolled Oats",
+            "category": "Dry Goods",
+            "quantity": 5,
+            "unit": "bags",
+            "cost_per_unit": 150.00,
+            "expiry_days_from_now": 120,
+            "status": "active",
+            "notes": "Gluten-free"
+        },
+        {
+            "id": 33,
+            "name": "Dark Chocolate Chips",
+            "category": "Dry Goods",
+            "quantity": 4,
+            "unit": "bags",
+            "cost_per_unit": 250.00,
+            "expiry_days_from_now": 180,
+            "status": "active",
+            "notes": "72% cacao"
+        },
+        {
+            "id": 34,
+            "name": "Almond Milk",
+            "category": "Beverages",
+            "quantity": 6,
+            "unit": "liters",
+            "cost_per_unit": 220.00,
+            "expiry_days_from_now": 15,
+            "status": "active",
+            "notes": "Unsweetened"
+        },
+        {
+            "id": 35,
+            "name": "Vanilla Extract",
+            "category": "Condiments",
+            "quantity": 2,
+            "unit": "bottles",
+            "cost_per_unit": 450.00,
+            "expiry_days_from_now": 365,
+            "status": "active",
+            "notes": "Pure Madagascar"
+        },
+        {
+            "id": 36,
+            "name": "Cinnamon",
+            "category": "Condiments",
+            "quantity": 3,
+            "unit": "jars",
+            "cost_per_unit": 180.00,
+            "expiry_days_from_now": 365,
+            "status": "active",
+            "notes": "Ceylon ground"
+        },
+        {
+            "id": 37,
+            "name": "Frozen Berries Mix",
+            "category": "Frozen",
+            "quantity": 4,
+            "unit": "bags",
+            "cost_per_unit": 350.00,
+            "expiry_days_from_now": 180,
+            "status": "active",
+            "notes": "Organic blend"
+        },
+        {
+            "id": 38,
+            "name": "Frozen Croissant Dough",
+            "category": "Frozen",
+            "quantity": 2,
+            "unit": "packs",
+            "cost_per_unit": 500.00,
+            "expiry_days_from_now": 90,
+            "status": "active",
+            "notes": "Ready to bake"
+        },
+        {
+            "id": 39,
+            "name": "Ice Cream Vanilla",
+            "category": "Frozen",
+            "quantity": 3,
+            "unit": "tubs",
+            "cost_per_unit": 400.00,
+            "expiry_days_from_now": 120,
+            "status": "active",
+            "notes": "Premium"
+        },
+        {
+            "id": 40,
+            "name": "Matcha Powder",
+            "category": "Coffee",
+            "quantity": 2,
+            "unit": "tins",
+            "cost_per_unit": 1400.00,
+            "expiry_days_from_now": 180,
+            "status": "active",
+            "notes": "Ceremonial grade"
+        }
+    ],
+    "sample_usage_logs": [
+        {
+            "item_id": 1,
+            "item_name": "Whole Milk",
+            "quantity_used": 2.5,
+            "reason": "consumed",
+            "days_ago": 0
+        },
+        {
+            "item_id": 1,
+            "item_name": "Whole Milk",
+            "quantity_used": 3.0,
+            "reason": "consumed",
+            "days_ago": 3
+        },
+        {
+            "item_id": 1,
+            "item_name": "Whole Milk",
+            "quantity_used": 1.5,
+            "reason": "expired",
+            "days_ago": 7
+        },
+        {
+            "item_id": 2,
+            "item_name": "Heavy Cream",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 2,
+            "item_name": "Heavy Cream",
+            "quantity_used": 0.5,
+            "reason": "consumed",
+            "days_ago": 5
+        },
+        {
+            "item_id": 3,
+            "item_name": "Greek Yogurt",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 2
+        },
+        {
+            "item_id": 3,
+            "item_name": "Greek Yogurt",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 8
+        },
+        {
+            "item_id": 5,
+            "item_name": "Romaine Lettuce",
+            "quantity_used": 2.0,
+            "reason": "expired",
+            "days_ago": 1
+        },
+        {
+            "item_id": 6,
+            "item_name": "Cherry Tomatoes",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 4
+        },
+        {
+            "item_id": 7,
+            "item_name": "Fresh Basil",
+            "quantity_used": 1.5,
+            "reason": "consumed",
+            "days_ago": 2
+        },
+        {
+            "item_id": 7,
+            "item_name": "Fresh Basil",
+            "quantity_used": 0.5,
+            "reason": "damaged",
+            "days_ago": 6
+        },
+        {
+            "item_id": 9,
+            "item_name": "Avocados",
+            "quantity_used": 3.0,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 9,
+            "item_name": "Avocados",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 5
+        },
+        {
+            "item_id": 11,
+            "item_name": "Chicken Breast",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 0
+        },
+        {
+            "item_id": 11,
+            "item_name": "Chicken Breast",
+            "quantity_used": 1.5,
+            "reason": "consumed",
+            "days_ago": 3
+        },
+        {
+            "item_id": 12,
+            "item_name": "Smoked Salmon",
+            "quantity_used": 0.5,
+            "reason": "consumed",
+            "days_ago": 2
+        },
+        {
+            "item_id": 14,
+            "item_name": "Sourdough Bread",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 14,
+            "item_name": "Sourdough Bread",
+            "quantity_used": 1.0,
+            "reason": "expired",
+            "days_ago": 4
+        },
+        {
+            "item_id": 15,
+            "item_name": "Croissants",
+            "quantity_used": 4.0,
+            "reason": "consumed",
+            "days_ago": 0
+        },
+        {
+            "item_id": 15,
+            "item_name": "Croissants",
+            "quantity_used": 3.0,
+            "reason": "consumed",
+            "days_ago": 3
+        },
+        {
+            "item_id": 16,
+            "item_name": "Blueberry Muffins",
+            "quantity_used": 3.0,
+            "reason": "expired",
+            "days_ago": 2
+        },
+        {
+            "item_id": 16,
+            "item_name": "Blueberry Muffins",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 7
+        },
+        {
+            "item_id": 18,
+            "item_name": "Orange Juice",
+            "quantity_used": 1.5,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 19,
+            "item_name": "Kombucha",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 3
+        },
+        {
+            "item_id": 22,
+            "item_name": "Arabica Coffee Beans",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 0
+        },
+        {
+            "item_id": 22,
+            "item_name": "Arabica Coffee Beans",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 4
+        },
+        {
+            "item_id": 22,
+            "item_name": "Arabica Coffee Beans",
+            "quantity_used": 0.5,
+            "reason": "consumed",
+            "days_ago": 9
+        },
+        {
+            "item_id": 23,
+            "item_name": "House Blend Coffee",
+            "quantity_used": 0.8,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 25,
+            "item_name": "Espresso Beans",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 2
+        },
+        {
+            "item_id": 25,
+            "item_name": "Espresso Beans",
+            "quantity_used": 0.5,
+            "reason": "consumed",
+            "days_ago": 6
+        },
+        {
+            "item_id": 30,
+            "item_name": "All-Purpose Flour",
+            "quantity_used": 2.0,
+            "reason": "consumed",
+            "days_ago": 1
+        },
+        {
+            "item_id": 30,
+            "item_name": "All-Purpose Flour",
+            "quantity_used": 1.5,
+            "reason": "consumed",
+            "days_ago": 5
+        },
+        {
+            "item_id": 33,
+            "item_name": "Dark Chocolate Chips",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 3
+        },
+        {
+            "item_id": 37,
+            "item_name": "Frozen Berries Mix",
+            "quantity_used": 1.0,
+            "reason": "consumed",
+            "days_ago": 2
+        },
+        {
+            "item_id": 39,
+            "item_name": "Ice Cream Vanilla",
+            "quantity_used": 0.5,
+            "reason": "consumed",
+            "days_ago": 0
+        },
+        {
+            "item_id": 40,
+            "item_name": "Matcha Powder",
+            "quantity_used": 0.3,
+            "reason": "consumed",
+            "days_ago": 1
+        }
+    ],
+    "_metadata": {
+        "currency": "INR",
+        "total_items": 40,
+        "total_categories": 10,
+        "total_sample_logs": 36,
+        "notes": "expiry_days_from_now is relative to the date of seeding. Negative values indicate already expired items. Usage logs are generated with random quantities and dates within the past 14 days during actual seeding — the sample_usage_logs above are representative examples."
+    }
+}
